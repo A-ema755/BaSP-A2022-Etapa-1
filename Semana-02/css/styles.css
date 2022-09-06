@@ -4,9 +4,10 @@ html, body{
     font-family: 'Roboto', sans-serif;
 }
 
-main {
+section {
     margin-left:  358px;
     margin-right: 350px;
+    margin-top: 250px;
 }
 
 a, a:visited, a:hover, a:focus {
@@ -81,14 +82,14 @@ h4 {
 
 h1 {
     position: relative;
-    left: 0px;
+    left: 358px;
     top: 200px;
 }
 
 #landing p {
     position: relative;
     left: 0px;
-    top: 140px;
+    top: 0px;
     max-width: 380px;
     font-size: 20px;
     text-align: left;
@@ -105,7 +106,6 @@ h1 {
 #landing button {
     position: relative;
     float: left;
-    bottom: 130px;
     font-size: 15px;
     color: black;
     opacity: 50%;
@@ -113,4 +113,70 @@ h1 {
     height: 34px;
     border: 2px solid rgba(245, 245, 220, 0.5), 0, 0;
     border-radius: 5px;
+}
+#functions h2 {
+    margin-bottom: 100px;
+}
+#functions p {
+    text-transform: uppercase;
+}
+#functions .clock {
+    position: relative;
+    left: 100px;
+}
+#functions .clock p{
+    position: relative;
+    left: 250px;
+    bottom: 200px;
+}
+
+#functions .clock p::before{
+    content: "Time tracking tool";
+    font-weight: bold;
+}
+
+#functions .resource {
+    position: relative;
+    left: 100px;
+}
+#functions .resource p{
+    position: relative;
+    left: 250px;
+    bottom: 220px;
+}
+
+#functions .resource p::before{
+    content: "Resource management";
+    font-weight: bold;
+}
+
+#functions .report {
+    position:absolute;
+    top: 1035px;
+    right: 500px;
+}
+#functions .report p{
+    position:relative;
+    bottom: 200px;
+    left: 250px
+}
+
+#functions .report p::before{
+    content: "Reports";
+    font-weight: bold;
+}
+
+#functions .roles {
+    position:absolute;
+    top: 1455px;
+    right: 500px;
+}
+#functions .roles p{
+    position:relative;
+    bottom: 200px;
+    left: 250px
+}
+#functions .roles p::before{
+    content: "Multiple Roles";
+    font-weight: bold;
 }
