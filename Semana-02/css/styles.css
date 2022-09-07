@@ -1,10 +1,8 @@
 html, body{
     padding: 0;
     margin: 0;
+    height: 4000px;
     font-family: 'Roboto', sans-serif;
-}
-html{
-    height: 100%;
 }
 section {
     margin-left: 358px;
@@ -340,7 +338,7 @@ input[type=text] {
 #about .history{
     position: relative;
     max-width: 343px;
-    top: 800px;
+    top: 700px;
     left: 1120px;
 }
 
@@ -348,23 +346,86 @@ input[type=text] {
     position: relative;
     text-align: justify;
     max-width: 800px;
-    top: 990px;
+    top: 900px;
     left: 0px;
 }
 
 #about .his h3{
     position: relative;
-    top: 980px;
+    top: 890px;
     left: 0px;
 }
-.footer {
-    position: fixed;
+
+footer {
+    position: absolute;
     left: 0;
-    bottom: 0;
+    top: 3600px;
     width: 100%;
-    background-color: red;
-    color: white;
-    text-align: center;
-    background-color: #09ff00;
-    height: 100px;
+    max-height: 600px;
+    background-color: #37386733;
+}
+
+footer h2{
+    position: relative;
+    left: 358px;
+    top: 40px;
+}
+
+footer p {
+    position: relative;
+    left: 1400px;
+    max-width: 100$;
+}
+
+footer ol {
+    position: relative;
+    left: 1300px;
+    width: 10%;
+    bottom: 50px;
+    color: black;
+}
+
+footer .prod {
+    position: relative;
+    left: 1320px;
+    bottom: 40px;
+    width: 150px;
+}
+
+footer .bus {
+    position: relative;
+    left: 1520px;
+    bottom: 170px;
+    width: 100px;
+}
+
+footer .supp {
+    position: relative;
+    left: 1720px;
+    bottom: 295px;
+    width: 5px;
+}
+
+footer .list p:nth-child(1){
+    position: relative;
+    left: 1345px;
+    bottom: 40px;
+}
+
+footer .list p:nth-child(3){
+    position: relative;
+    left: 1545px;
+    bottom: 165px;
+}
+
+footer .list p:nth-child(5){
+    position: relative;
+    left: 1745px;
+    bottom: 290px;
+}
+footer .icons {
+    position: relative;
+    left:1600px;
+    font-size: 35px;
+    max-width: 100%;
 }
