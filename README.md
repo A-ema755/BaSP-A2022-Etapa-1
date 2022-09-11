@@ -2,12 +2,16 @@
 - Trackgenix is a web solution that manages, employees and projects.
 
 - How to open: 
-1. Access to the folder "Semana-01"
+1. Access to the folder "Semana-0X"
 2. Open the file "index.html" in your browser
+- Or via github pages:
+https://a-ema755.github.io/BaSP-A2022-Etapa-1/Semana-03/index.html
 
 ### Week 01
 HTML structure, basic tags and git/github.
 ### Week 02
 Basic understanding of CSS, index.html overhaul to facilitate CSS styles.
+### Week 03
+Responsive design with flexbox (phone, tablet and desktop).
 
 _By Emanuel Guevara_
