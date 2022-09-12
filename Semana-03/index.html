@@ -20,6 +20,7 @@
     </head>
     <body>
         <header>
+            <div class="header-line"></div>
             <div class="header-icons-1">
                 <i class="fa-solid fa-bars"></i>
             </div>
@@ -31,48 +32,42 @@
             </ul>
         </header>
         <aside>
-            <nav>
-                <div id="input-nav">
-                    <input type="search" placeholder="Search">
-                </div>
-                <div class="menu">
-                    <h3>Menu</h3>
-                    <h4>
-                        <a href=""> Home </a>
-                    </h4>
-                    <h4>
-                        <a href=""> Sign up </a>
-                    </h4>
-                    <h4>
-                        <a href=""> Log In </a>
-                    </h4>
-                    <h4>
-                        <a href=""> Contact Info </a>
-                    </h4>
-                </div>
-                <div class="menu">
-                    <span>
-                        <h3>Get in touch</h3>
-                        <p>
-                            Dictum at tempor commodo ullamcorper a lacus vestibulum sed arcu.
-                            Lacinia quis vel eros donec ac odio tempor orci. Nulla porttitor massa
-                            id neque aliquam.
-                        </p>
-                    <div>
-                        </span>
-                        <span id="menu">
-                            <p>trackgenix@gigatech.com</p>
-                            <p>+598 99123456</p>
-                            <p>Av. Montevideo 1234, 11200</p>
-                        </span>
-                    </div> 
-                </div>
-            </nav>
+            <div id="input-nav">
+                <input type="search" placeholder="Search">
+            </div>
+            <div class="menu-up">
+                <h3>Menu</h3>
+                <h4>
+                    <a href=""> Home </a>
+                </h4>
+                <h4>
+                    <a href=""> Sign up </a>
+                </h4>
+                <h4>
+                    <a href=""> Log In </a>
+                </h4>
+                <h4>
+                    <a href=""> Contact Info </a>
+                </h4>
+            </div>
+            <div class="menu-mid">
+                    <h3>Get in touch</h3>
+                    <p>
+                        Dictum at tempor commodo ullamcorper a lacus vestibulum sed arcu.
+                        Lacinia quis vel eros donec ac odio tempor orci. Nulla porttitor massa
+                        id neque aliquam.
+                    </p>
+                    <span id="menu-low">
+                        <p>trackgenix@gigatech.com</p>
+                        <p>+598 99123456</p>
+                        <p>Av. Montevideo 1234, 11200</p>
+                    </span> 
+            </div>
         </aside>
         <main>
             <section id="landing">
+                <div class="title"><h1>Trackgenix</h1></div>
                 <div class="land-text">
-                    <h1>Trackgenix</h1>
                     <p>
                         Lorem ipsum dolor sit amet. Quo sint dolor ut beatae nihil ut
                         doloribus galisum ut doloribus enim. Rem neque dolor nam beatae
@@ -81,18 +76,20 @@
                         nulla est nulla voluptatem quo natus quasi. Sit impedit nulla ut
                         voluptas impedit in dolorum voluptatum.
                     </p>
-                    <div class="land-img">
-                        <img src="assets/Landing_1.jpg" alt="Laptop">
-                    </div>
                 </div>
-                <div class="land-left">
+                <div class="land-img">
+                    <img src="assets/Landing_1.jpg" alt="Laptop">
+                </div>
+                <div class="land-btn">
                     <button type="button">Learn More</button></div>
                 </div>
             </section>
             <section id="functions">
-                <h2>Functionalities</h2>
-                <div>
-                    <article>
+                <div class="title-2">
+                    <h2>Functionalities</h2>
+                </div>
+                <div class="functions-cont">
+                    <article class="clock">
                         <i class="fa-solid fa-clock"></i>
                         <p>
                             excepturi ut temporibus perferendis eum sunt
@@ -101,7 +98,7 @@
                             consequatur.
                         </p>
                     </article>
-                    <article>
+                    <article class="gear">
                         <i class="fa-solid fa-user-gear"></i>
                         <p>
                             quam et incidunt galisum et quia nisi sit dolor
@@ -110,7 +107,7 @@
                             dolores adipisci quibusdam veritatis.
                         </p>
                     </article>
-                    <article> 
+                    <article class="file"> 
                         <i class="fa-solid fa-file-lines"></i>
                         <p>
                             sit minus asperiores est fugit tempora et rerum velit qui
@@ -118,7 +115,7 @@
                             voluptatem illo quo consequuntur maxime qui tempore quae!
                         </p>
                     </article>
-                    <article>
+                    <article class="users">
                         <i class="fa-solid fa-users-gear"></i>
                         <p>
                             odio qui nesciunt corporis aut voluptatem tenetur et
@@ -134,7 +131,7 @@
                     <h3>Why use TRACKGENIX?</h3>
                 </div>
                 <div class="why-right">
-                    <div>
+                    <div class="run">
                         <i class="fa-solid fa-person-running"></i>
                         <p>
                             <strong>Productiviy booster</strong> sed voluptatum accusantium in quam nesciunt qui
@@ -142,22 +139,22 @@
                             autem itaque.
                         </p>
                     </div>
-                    <div>    
-                        <img src="assets/form.png" alt="Work traceability">
+                    <div class="form">    
+                        <i class="fa-solid fa-file-circle-check"></i>
                         <p>
                             <strong>Work traceability</strong> qui odio maiores et velit atque quo eveniet optio
                             est distinctio blanditiis et sint alias est sint dolore.
                         </p>
                     </div>
-                    <div>    
-                        <img src="assets/flag.png" alt="Leadership and team management">
+                    <div class="flag">    
+                        <i class="fa-solid fa-flag"></i>
                         <p>
                             <strong>Leadership and team management</strong> Ut mollitia galisum et reiciendis
                             odio et perspiciatis tempore et dolorem soluta aut labore galisum.
                         </p>
                     </div>
-                    <div>
-                        <img src="assets/paths.png" alt="Decision making">
+                    <div class="paths">
+                        <i class="fa-solid fa-arrows-up-down-left-right"></i>
                         <p>
                             Decision making Ab dolorem expedita non earum autem hic quos nobis
                             ut vero voluptates a quia sunt ut obcaecati incidunt ex repellat
@@ -167,14 +164,14 @@
                 </div>
             </section>
             <section id="contact">
-                <div>
+                <div class="hear">
                     <div class="contact-left">
                         <h2>We'd love to hear from you!</h2>
                     </div>
                     <div class="contact-left">
-                        <img src="assets/email.png" alt="Email">
-                        <img src="assets/heart.png" alt="Heart">
-                        <img src="assets/flyemail.png" alt="Sending Email">
+                        <i class="fa-solid fa-envelope"></i>
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-envelope-open-text"></i>
                     </div>
                     <div class="contact-left">
                         <p>
@@ -189,32 +186,42 @@
                         </p>
                     </div>
                 </div>
-                <div>
-                    <div class="contact-right">
-                        <h2>Get in touch</h2>
-                    </div>
-                    <div class="contact-right">
-                        <form>
-                        <p>Name</p>
-                        <input type="text" name="name">
-                        <p>E-mail</p>
-                        <input type="text" name="email">
+                <div class="contact-right">
+                    <h2>Get in touch</h2>
+                </div>
+                <form class="form-cont">
+                    <ul class="form-outer">
+                    <li>
+                        <label for="name">Name</label>
+                        <input type="text" id="first-name">
+                    </li>
+                    <li>
+                        <label for="email">Email</label>
+                        <input type="email" id="email">
+                    </li>
+                    <li>
                         <input type="radio">
                         <label for="human resources">Human Resources</label>
+                    </li>
+                    <li>
                         <input type="radio">
                         <label for="systems">Systems</label>
+                    </li>
+                    <li>
                         <input type="radio">
                         <label for="business">Business</label>
-                        <p>Message</p>
-                        <input type="text" name="message">
-                        <input type="submit" value="Submit">
-                        </form>
-                    </div>    
-                </div>
+                    </li> 
+                    <li>
+                        <label for="message">Message</label>
+                        <input type="text" id="message">
+                    </li>
+                </form>   
             </section>
             <section id="about">
-                <div class="us">
+                <div class="title-about">
                     <h2>About us</h2>
+                </div>
+                <div class="us">
                     <img src="assets/Mission.png" alt="Image of people on a mission">
                     <h3>Our mission</h3>
                     <p>
@@ -236,14 +243,14 @@
                         Quis repellat vel mollitia voluptatem qui cupiditate maxime. Ex
                         dicta nostrum in dolores animi cum beatae molestiae!
                     </p>
-                </div>
-                <div class="history">
                     <img src="assets/History.png" alt="History image">
-                </div>
+                </div>    
             </section>
         </main>
         <footer>
-            <h2>Trackgenix</h2>
+            <div class="title-foot">
+                <h2>Trackgenix</h2>
+            </div>
             <div class="list">
                 <p>Products</p>
                 <ol class="prod">
@@ -267,7 +274,7 @@
                     <li>Contact</li>
                 </ol>
             </div>
-            <div class="icons">
+            <div class="foot-icons">
                 <a href="https://twitter.com/">
                     <i class="fa-brands fa-twitter"></i>
                 </a>
