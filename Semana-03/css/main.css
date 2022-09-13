@@ -30,3 +30,26 @@
     margin-top: 1em;
 }
 
+#functions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 5em;
+    gap: 2em;
+    background-color: #DDDDE5;
+}
+
+.clock, .roles {
+    display: flex;
+    flex-direction: row;
+    margin: 1em;
+    gap: 1em;
+}
+
+.gear, .file {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 1em;
+    gap: 1em;
+}
