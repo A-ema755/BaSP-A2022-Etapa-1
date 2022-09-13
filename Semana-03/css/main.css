@@ -40,6 +40,12 @@
     background-color: #DDDDE5;
 }
 
+.title-2{
+    display: flex;
+    justify-content: center;
+    margin-right: 3em;
+}
+
 .clock, .roles {
     display: flex;
     flex-direction: row;
@@ -53,3 +59,40 @@
     margin: 1em;
     gap: 1em;
 }
+
+#why {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.why-left img, h2{
+    display: flex;
+    margin-left: 30vw;
+    width: 10em;
+    height: auto;
+}
+
+.why-left h3 {
+    display: flex;
+    margin-left: 25vw;
+}
+
+.run, .flag {
+    display: flex;
+    flex-direction: row;
+    margin: 1em;
+    gap: 1em;
+}
+
+.form, .paths {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 1em;
+    gap: 1em;
+}
+
+
+
+
