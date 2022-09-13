@@ -9,3 +9,17 @@ a, a:visited, a:hover, a:focus {
     text-decoration: none;
     color: inherit;
 }
+
+section {
+    margin: 1em;
+}
+
+.land-btn {
+    font-size: 1em;
+    color: black;
+    opacity: 50%;
+    width: 8em;
+    height: 1.5em;
+    border: 2px solid rgba(245, 245, 220, 0.5), 0, 0;
+    border-radius: 5px;
+}
