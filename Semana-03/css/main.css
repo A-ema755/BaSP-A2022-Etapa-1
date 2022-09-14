@@ -201,6 +201,33 @@
     flex-wrap: wrap;
 }
 
+@media screen and (min-width: 768px){
+
+    #landing {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        flex-wrap: wrap-reverse;
+        margin-top: 7em;
+        gap: 2em;
+    }
+    
+    .title {
+        border-bottom: white
+    }
+    
+    .land-text {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 7em;
+    }
+    .land-btn {
+        display: none;
+        margin-top: 1em;
+    }
+}
+
 
 
 
