@@ -12,20 +12,16 @@ console.log(sum);
 /* b. Crear dos variables de tipo String y concatenarlas guardando el resultado en una 3er variable. */
 
 console.log('\n-Exercise 1.b:');
-var str1 = 'Hello ';
-var str2 = 'World';
-var strSum = str1 + str2;
+var numStr1 = 'Hello ';
+var numStr2 = 'World';
+var strSum = numStr1 + numStr2;
 console.log(strSum);
 
 /* c. Crear dos variables de tipo String y sumar el largo de cada variable (cantidad de letras del string) 
 guardando el resultado de la suma en una 3er variable (utilizar length). */
 
 console.log('\n-Exercise 1.c:');
-var str3 = 'Emanuel';
-var str4 = 'Guevara';
-var strSum2 = str3.length + str4.length;
+var numStr3 = 'Emanuel';
+var numStr4 = 'Guevara';
+var strSum2 = numStr3.length + numStr4.length;
 console.log(strSum2);
-
-
-
-
