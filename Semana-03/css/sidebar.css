@@ -1,3 +1,27 @@
 aside {
-    display: none;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    background-color: #373867;
+    color: #ffffff;
+    width: 325px;
+    height: 100%;
+    z-index: 9;
+
+}
+.input-nav {
+    position: fixed;
+    top: 5%;
+    left: 62px;
+    border: #ffffff;
+}
+
+h4 {
+    font-weight: 200;
+}
+
+@media screen and (max-width: 1024px){
+    aside {
+        display: none;
+    }    
 }

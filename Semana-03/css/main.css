@@ -3,8 +3,8 @@
     flex-direction: column-reverse;
     justify-content: center;
     flex-wrap: wrap-reverse;
-    margin-top: 7em;
-    gap: 2em;
+    margin-top: 25%;
+    gap: 20px;
 }
 
 #landing img {
@@ -16,7 +16,7 @@
 
 .title {
     align-self: flex-start;
-    margin-bottom: 0.5em;
+    margin-bottom: 1%;
     width: 95%;
     border-bottom: solid 2px rgb(175, 175, 175);
 }
@@ -28,7 +28,7 @@
 }
 
 .land-btn {
-    margin-top: 1em;
+    margin-top: 4%;
 }
 
 #functions {
@@ -36,8 +36,8 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin-top: 5em;
-    gap: 2em;
+    margin-top: 8%;
+    gap: 20px;
     background-color: #DDDDE5;
 }
 
@@ -49,15 +49,15 @@
 .clock, .roles {
     display: flex;
     flex-direction: row;
-    margin: 1em;
-    gap: 1em;
+    margin: 4%;
+    gap: 20px;
 }
 
 .gear, .file {
     display: flex;
     flex-direction: row-reverse;
-    margin: 1em;
-    gap: 1em;
+    margin: 4%;
+    gap: 20px;
 }
 
 #why {
@@ -94,13 +94,13 @@
 .form, .paths {
     display: flex;
     flex-direction: row-reverse;
-    margin: 1em;
-    gap: 1em;
+    margin: 4%;
+    gap: 20px;
     
 }
 
 .paths {
-    padding-bottom: 1em;
+    padding-bottom: 4%;
     border-bottom: solid 2px #C4C4C4;
 }
 
@@ -118,8 +118,8 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin-top: 1em;
-    gap: 2em;
+    margin-top: 4%;
+    gap: 20px;
 }
 
 .form-cont {
@@ -133,7 +133,7 @@
 }
 
 .contact-message {
-    margin-top: 0.5em;
+    margin-top: 2%;
 }
 
 .submit {
@@ -146,8 +146,8 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    margin-top: 1em;
-    gap: 2em;
+    margin-top: 2%;
+    gap: 20px;
     font-size: 16px;
 }
 
@@ -155,13 +155,13 @@
     text-align: center;
     border-bottom: solid 2px #C4C4C4;
     width: 100%;
-    padding: 1em;
+    padding: 4%;
 }
 
 .us img {
     display: flex;
     flex-direction: row;    
-    height: 7em;
+    height: 120px;
     width: auto;
 }
 
@@ -183,7 +183,7 @@
     display: flex;
     flex-direction: row-reverse;   
     align-items: flex-end; 
-    height: 7em;
+    height: 120px;
     width: auto;
 }
 
@@ -208,8 +208,8 @@
         flex-direction: column-reverse;
         justify-content: center;
         flex-wrap: wrap-reverse;
-        margin-top: 7em;
-        gap: 2em;
+        margin-top: 16%;
+        gap: 20px;
     }
     
     .title {
@@ -220,11 +220,11 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        gap: 7em;
+        gap: 16%;
     }
     .land-btn {
         display: none;
-        margin-top: 1em;
+        margin-top: 4%;
     }
 }
 
