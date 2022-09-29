@@ -1,5 +1,4 @@
-# Trackgenix
-- Trackgenix is a web solution that manages, employees and projects.
+BOOTCAMP RADIUM ROCKET JUL 2022 - SEP 2022 (NOT FINISHED)
 
 - How to open: 
 1. Access to the folder "Semana-0X"
