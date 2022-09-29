@@ -7,6 +7,8 @@
 HTML structure, basic tags and git/github.
 ### Week 02
 Basic understanding of CSS, index.html overhaul to facilitate CSS styles.
+
+Open via GitHub pages: https://a-ema755.github.io/BaSP-A2022-Etapa-1/Semana-02/index.html
 ### Week 03
 Responsive design with flexbox (phone, tablet and desktop).
 
